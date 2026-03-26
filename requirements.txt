@@ -1,1 +1,8 @@
 gunicorn
+pyTelegramBotAPI
+deep-translator
+python-docx
+pymupdf
+fpdf
+arabic-reshaper
+python-bidi

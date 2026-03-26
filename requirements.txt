@@ -1,4 +1,3 @@
-gunicorn
 pyTelegramBotAPI
 deep-translator
 python-docx

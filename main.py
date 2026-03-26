@@ -327,7 +327,7 @@ def process_translation(call, lang):
         pdf = FPDF()
         pdf.add_page()
         if os.path.exists("arial.ttf"):
-            pdf.add_font("CustomFont", "", "arial.ttf")
+            pdf.add_font("CustomFont", "", "arial.ttf", uni=True) # أضف uni=True هنا
             pdf.set_font("CustomFont", size=12)
         else:
             pdf.set_font("Arial", size=12)
